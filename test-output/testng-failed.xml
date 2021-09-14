@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restApi.restApiTraining.TestngScriptTest">
+      <class name="authToken.AuthTokenTest">
         <methods>
-          <include name="CreateAccount"/>
-          <include name="GetAccount"/>
+          <include name="authTest"/>
         </methods>
-      </class> <!-- restApi.restApiTraining.TestngScriptTest -->
+      </class> <!-- authToken.AuthTokenTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
