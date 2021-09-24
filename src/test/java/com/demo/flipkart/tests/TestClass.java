@@ -12,7 +12,7 @@ public class TestClass extends FlipkartBaseTest {
 	@Test(description = "Valid Login using email id")
 	public void testFlipkartValidLogin() throws MalformedURLException, InterruptedException {
 		assertTrue(LoginFeature.loginToApp(), "Failed to login");
-		
+		System.out.println("Logged in Successfully");		
 		
 		
 	}
